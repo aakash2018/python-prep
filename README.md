@@ -21,4 +21,18 @@ radius, using the formula A = πr²
  triangle, using the formulas P = a + b + c and A = (b * h) / 2,
  where a, b and c are the sides of the triangle and h is the height
  relative to the side B.
-
+11. Write a program that calculates the average velocity of an
+ object, using the formula v = Δs/Δt, where v is the average
+ velocity, Δs is the space variation, and Δt is the time variation
+12. Write a program that calculates the kinetic energy of a
+ moving object, using the formula E = (mv²) / 2, where E is the
+ kinetic energy, m is the mass of the object, and v is the velocity
+13. Write a program that calculates the work done by a force
+ acting on an object, using the formula T = F * d, where T is the
+ work, F is the applied force, and d is the distance traveled by
+ the object.
+14. Write a program that reads the x and y position of two
+ points in the Cartesian plane, and calculates the distance
+ between them.
+ 15.  Create a program that prompts the user for the radius of a
+ sphere and calculates and displays its volume.
