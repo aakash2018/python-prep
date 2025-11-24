@@ -34,5 +34,24 @@ radius, using the formula A = πr²
 14. Write a program that reads the x and y position of two
  points in the Cartesian plane, and calculates the distance
  between them.
- 15.  Create a program that prompts the user for the radius of a
+ 15. Create a program that prompts the user for the radius of a
  sphere and calculates and displays its volume.
+ 16. Make a program that asks for a person's age and displays whether they
+are of legal age or not.
+17.  Write a program that reads two numbers and tells you which one is
+bigger.
+18. Write a program that asks the user for three numbers and displays the largest one.
+19. Write a program that asks the user for three numbers and displays the largest one (using dataset method and max function)
+20. Write a program that reads a number and reports whether it is odd or
+even.
+21. Write a program that reads a number and reports whether it is positive,
+negative or zero.
+22. Make a program that reads the scores of two tests and reports whether the
+student passed (score greater than or equal to 6) or failed (score less than 6)
+in each of the tests.
+23. Make a program that reads the grades of two tests, calculates the simple
+arithmetic mean, and informs whether the student passed (average greater
+than or equal to 6) or failed (average less than 6).
+24. Make a program that reads three numbers, and informs if their sum is
+divisible by 5 or not.
+
