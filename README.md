@@ -54,4 +54,13 @@ arithmetic mean, and informs whether the student passed (average greater
 than or equal to 6) or failed (average less than 6).
 24. Make a program that reads three numbers, and informs if their sum is
 divisible by 5 or not.
+25. Create a program that reads three numbers and checks if their sum is positive, negative or equal to zero
+26. Create a program that reads three numbers and checks if their sum is positive, negative or equal to zero using try and catch .(ValueError: not enough values to unpack (expected 3, got 2) is error ko kaise handle kar sakta hue
+)
+27. Make a program that reads three numbers, and displays them on the
+screen in ascending order.
+28. Make a program that reads the age of three people and how many of them are of legal age (age 18 or older).
+29. Write a program that reads three numbers and tells you if they can be the
+sides of a triangle (the sum of two sides must always be greater than the third
+side).
 

@@ -1,7 +1,8 @@
-a =float(input("Enter first number: "))
-b =float(input("Enter second number: "))
+a = float(input("Enter first number: "))
+b = float(input("Enter second number: "))
 
-class Add :
+
+class Add:
     def __init__(self, a, b):
         self.a = a
         self.b = b
@@ -26,8 +27,9 @@ class Add :
             "addition": self.add(),
             "multiplication": self.multiply(),
             "substraction": self.substract(),
-            "division": self.divide()
-        }                   
+            "division": self.divide(),
+        }
+
 
 result = Add(a, b)
 print("The sum is:", result.compute())
