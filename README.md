@@ -63,4 +63,14 @@ screen in ascending order.
 29. Write a program that reads three numbers and tells you if they can be the
 sides of a triangle (the sum of two sides must always be greater than the third
 side).
+30. Make a program that reads the year of birth of a person and informs if he
+is able to vote (age greater than or equal to 16 years old).
+31. Make a program that reads three grades from a student and reports
+whether he passed (final grade greater than or equal to 7), failed (final grade
+less than 4) or was in recovery (final grade between 4 and 7).
+32. Write a program that asks for a person's height and weight and calculates
+their body mass index (BMI), displaying the corresponding category
+(underweight, normal weight, overweight, obese, severely obese).
+33. Write a program that asks for an integer and checks if it is divisible by 3
+and 5 at the same time.
 

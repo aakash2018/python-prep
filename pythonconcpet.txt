@@ -1,0 +1,7 @@
+1. .pyc file use and how to decompile and run.
+https://indianpythonista.wordpress.com/2018/01/05/demystifying-pyc-files/
+
+
+2. Indian Pythonista
+
+

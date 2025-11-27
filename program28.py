@@ -11,10 +11,6 @@ print("Values are:", age1, age2, age3)
 
 @dataclass
 class isLegalAge:
-    age1: int  # instance variable
-    age2: int  # instance variable
-    age3: int  # instance variable
-
     @classmethod
     def checkAge(cls) -> int:
         count = 0
@@ -32,7 +28,7 @@ class isLegalAge:
 
 
 if __name__ == "__main__":
-    result = isLegalAge(age1, age2, age3)
+    result = isLegalAge()
     print(result.compute)
 
 
