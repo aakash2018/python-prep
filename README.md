@@ -73,4 +73,15 @@ their body mass index (BMI), displaying the corresponding category
 (underweight, normal weight, overweight, obese, severely obese).
 33. Write a program that asks for an integer and checks if it is divisible by 3
 and 5 at the same time.
-
+34. Create a program that asks for a person's age and displays whether they
+are a child (0-12 years old), teenager (13-17 years old), adult (18-59 years old),
+or elderly (60 years old or older).
+35. Make a program that asks for two numbers and displays if the first is
+divisible by the second
+36. Write a program that displays the numbers 1 through 10
+using a loop.
+37. Write a program that displays all numbers from 1 to 100
+38. Write a program that prints all even numbers from 1 to
+100.
+39. Write a program that displays even numbers 1 to 50 and
+odd numbers 51 to 100 using a repeating loop.
