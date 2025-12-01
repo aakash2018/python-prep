@@ -85,3 +85,21 @@ using a loop.
 100.
 39. Write a program that displays even numbers 1 to 50 and
 odd numbers 51 to 100 using a repeating loop.
+40. Create a program that prompts the user for a number and
+displays the table of that number using a loop.
+41. Create a program that prompts the user for a number and
+displays the table of that number using a loop.
+42. Write a program that asks the user for a number N and
+displays the sum of all numbers from 1 to N.
+43. Write a program that calculates and displays the sum of
+even numbers from 1 to 100 using a repeating loop.
+44. Write a program that calculates and displays the value of the power of a number entered by the user raised to an
+exponent also entered by the user, using repetition loops.
+45. Write a program that asks the user for a number N and
+says whether it is prime or not.
+46. Write a program that prompts the user for a number N and displays all prime numbers less than N.
+47. Create a program that displays the first N prime numbers,where N is informed by the user, using a loop. 
+48. Create a program that displays the first N first perfect squares, where N is informed by the user, using a loop.
+49. Write a program that prompts the user for two numbers A
+and B and displays all numbers between A and B.
+50. Write a program that reads numbers from the user until a negative number is entered, and prints the sum of the positive numbers. 
