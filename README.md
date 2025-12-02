@@ -103,3 +103,13 @@ says whether it is prime or not.
 49. Write a program that prompts the user for two numbers A
 and B and displays all numbers between A and B.
 50. Write a program that reads numbers from the user until a negative number is entered, and prints the sum of the positive numbers. 
+51. Write a program that prompts the user for a number and
+displays the Fibonacci sequence up to the given number using a repeating loop.
+52. Write a program that reads numbers from the user until
+zero is entered, and displays the average of the numbers
+entered.
+53. Write a program that prompts the user for a list of
+numbers, until the user types the number zero, and displays the largest and smallest numbers in the list.
+54. Write a program that prompts the user for a sentence and displays the number of vowels in the sentence.
+55. Write a program that prompts the user for a number and
+displays its divisors.
