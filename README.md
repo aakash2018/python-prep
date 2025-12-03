@@ -113,3 +113,15 @@ numbers, until the user types the number zero, and displays the largest and smal
 54. Write a program that prompts the user for a sentence and displays the number of vowels in the sentence.
 55. Write a program that prompts the user for a number and
 displays its divisors.
+56. Write a program that determines the lowest common
+multiple (LCM) between two numbers entered by the user.
+57. Write a program that determines the greatest common
+divisor (GCD) between two numbers entered by the user.
+58. Write a program that calculates the series below up to the tenth element:
+e* = 1 + x + x*2(x ki power 2)/2!(factorial 2) + x*3(x ki power 3)/3!(factorial)
+59. Rewrite the previous exercise code until the difference
+between the terms is less than 0.001.
+60. Make a program that calculates the value of sine using the Taylor series according to the equation below until the
+difference between the terms is less than 0.0001.
+61. Create a program that reads an array of integers and
+displays the sum of all the elements.
