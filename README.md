@@ -125,3 +125,21 @@ between the terms is less than 0.001.
 difference between the terms is less than 0.0001.
 61. Create a program that reads an array of integers and
 displays the sum of all the elements.
+62. Write a program that reads an array of integers and
+displays the largest element in the array.
+63. Write a program that reads an array of integers and displays the average of the elements.
+64. Create a program that reads two vectors of integers of the
+same size and displays a new vector with the sum of the
+corresponding elements of the two vectors.
+65. Write a program that reads an array of integers and checks
+if they are in ascending order.
+66. Write a program that reads an array of integers and
+displays the elements in reverse order.
+67. Create a program that reads an array of integers and finds
+the second largest element in the array.
+68. Write a program that reads an array of integers and
+displays how many times a specific number appears in the
+array.
+69. Write a program that reads two arrays of integers with the same size and displays a new array with the elements resulting from the multiplication of the corresponding elements of the two arrays.
+70. Create a program that reads an array of integers and
+checks that all elements are even.
