@@ -143,3 +143,18 @@ array.
 69. Write a program that reads two arrays of integers with the same size and displays a new array with the elements resulting from the multiplication of the corresponding elements of the two arrays.
 70. Create a program that reads an array of integers and
 checks that all elements are even.
+71. Create a program that reads two words and concatenates
+them, displaying the resulting word.
+72. Write a program that takes a word and displays each letter separately
+73. Create a program that takes a sentence and replaces all the letters "a" with "e
+74. Write a program that receives a name and checks that it
+starts with the letter "A".
+75. Write a program that reads a word and checks if it is a
+palindrome (if it can be read backwards the same way).
+76. Create a program that reads two words and checks if the
+second word is an anagram of the first.
+77. Write a program that takes a full name and displays only the first name.
+78. Make a program that receives a sentence and displays the amount of blank spaces present in it.
+79. Create a program that reads a word and displays the
+number of vowels present in it.
+80. Write a program that takes a full name and displays the last name (last name) first.
