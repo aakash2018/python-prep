@@ -158,3 +158,6 @@ second word is an anagram of the first.
 79. Create a program that reads a word and displays the
 number of vowels present in it.
 80. Write a program that takes a full name and displays the last name (last name) first.
+81. Write a program that fills a 3x3 matrix with values entered by the user and displays the sum of the main diagonal values.
+82. Write a program that fills a 4x4 matrix with random values and displays the transposed matrix.
+83. Write a program that reads two 2x2 matrices and displays the sum of the two matrices.
