@@ -1,0 +1,105 @@
+Docker
+| Flag  | Kaam                         |
+| ----- | ---------------------------- |
+| `-i`  | Input lene ke liye           |
+| `-t`  | Terminal dikhane ke liye     |
+| `-it` | Interactive terminal ke liye |
+| `-d`	| (detached mode )background   | 
+
+
+
+1. Basic Command docker
+	- docker pull command
+		- docker pull ubuntu 
+	- docker run command
+		- docker images
+		- docker run ubuntu(run images)
+	- docker ps command (list of all running container)
+		- docker ps -a (all images  list past time show)
+		- docker ps (list running container command)
+		-  docker run -it ubuntu (it ->means interactive attached)
+	- docker stop command
+		- docker stop containerId 
+	- docker start containerId
+	-docker port mapping command 
+		- docker run -it -p 7990:80(external:internal port) nginx
+	- docker logs
+	 	- docker logs containerId
+	- docker exec
+		- docker exec -it containerId bash (terminal open ho jayega container ka use me file me ja kar curl command se change kar sakte hai)
+			- curl localhost:80(internal port)
+		- docker exec -it containerId cat names.txt (names wali file ke under ka data)
+	- docker inspect
+		- docker inspect containerId
+	- docker networks
+
+
+--------Dockerfile----------------------
+
+base Image which is present in docker hub
+docker run python or docker run node21 --alphine
+uper wali file docker me hoti hai us ko apen Docker file me likhte hai
+aise
+- From python or FROM node:${NODE_VERSION}-alpine as base (alphine docker image ki side reduce karne ke liye)
+ - From python:3.8-alphine
+phir entry point project ka
+- ADD app.py /tree/app.py-> /app is destination folder
+
+command entry file ko run karne ke liye
+- CMD ["python","/tree/app.py"]
+
+
+
+build docker command
+- docker build -t python-hello-world(image name) .(which directory . show ager single . hai to current .. hai to bahar)
+  - docker build -t python-hello-world:V2(build with tag name)
+   - docker run python-hello-world:V2 (run with tag name)
+
+change working dir
+ - WORKDIR /tree
+
+- docker dongling images remove
+  - docker rmi ${docker images dangling=true} -f
+  - docker rmi imageId
+  - docker ps
+  - docker stop imageId
+  - docker images ls dangling=true
+ - remove all dangling image
+  - docker image prune 
+
+- Remove docker container
+  - docker rm containerId
+  - docker rm  ${docker ps -aq} (docker ps -aq common container remove with different containerId)
+
+-check docker is running
+	- docker ps
+
+
+
+--------------------------------------AWS LOcalstack----------------------------------------------
+aws configure
+
+AWS Access Key ID: test
+AWS Secret Access Key: test
+Default region name: us-east-1
+Default output format: json
+
+
+aws --version
+
+- S3 test command (LocalStack)
+aws --endpoint-url=http://localhost:4566 s3 ls
+Agar output empty aaye ya error na ho → LocalStack + AWS CLI connected
+
+
+- S3 bucket create karo
+aws --endpoint-url=http://localhost:4566 s3 mb s3://my-test-bucket
+
+- check s3 bucket
+aws --endpoint-url=http://localhost:4566 s3 ls
+
+
+
+
+
+

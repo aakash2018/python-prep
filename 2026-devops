@@ -1,0 +1,26 @@
+1. gitOps  and platform engineering (argoCd and FluxCd)
+	- brush up git basics. 
+	- learn kubernates fundamentals.
+	- Try ArgoCd and FluxCd and literally watch how a git commit becomes a live deployment.
+	
+2. Infrasturcture as API (crossplane and pulumi)
+	- brush up terraform and lac concepts.
+	- understand how APIs work.
+	- Explore Crossplane on a Kubernates cluster.
+
+3. Observability & AIOps (Prometheus,OpenTelemetry,Grafana)
+	- Revisit monitoring basics (metrics,logs,traces).
+	- learn prometheus and grafana.
+	- explore openTelemetry.
+	- study how AIOps tools analyse logs and anomelies.
+
+4. AI Infrastructure & Model Deployment (Triton Inference Server,Ray Serve ,Kserve)
+	-  learn how to containerize and deploy a simple ai model.
+	-  Understand GPU basics and scheduling.
+	- Learn inference fundamentals.
+	- Dploy a model and track its performance.
+
+5. Event-driven architecture and API intelligence(kafka and rabbitmq,aws lambda,google cloud functions)
+	- Learn kafka and rabbitMq.
+	- read about event-driven-architecture.
+	- understand asynchronous communication and hhow it works in distributed system.
