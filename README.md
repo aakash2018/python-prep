@@ -161,3 +161,19 @@ number of vowels present in it.
 81. Write a program that fills a 3x3 matrix with values entered by the user and displays the sum of the main diagonal values.
 82. Write a program that fills a 4x4 matrix with random values and displays the transposed matrix.
 83. Write a program that reads two 2x2 matrices and displays the sum of the two matrices.
+84. Write a program that fills a 5x5 matrix with integers and displays the largest value in the matrix and its position.
+85. Write a program that reads a 3x3 matrix and calculates the average of the values present in the even positions (sum of the even indices) of the matrix.
+86. Write a program that fills a 4x4 matrix with random
+numbers and displays the sum of the values present in each row and in each column.
+87. Write a program that reads a 3x3 matrix and calculates thedeterminant of the matrix.
+88. Write a program that reads two matrices and returns the
+multiplication between them as an answer. The program should observe whether or not it is possible to perform the
+multiplication between the two matrices.
+89. Write a program that reads a 4x4 matrix and checks if it is a diagonal matrix, that is, if all elements outside the main diagonal are equal to zero.
+90. Write a program that reads an m x n matrix, indicating the location where there are mines in a Minesweeper game (being 0 for a neutral field, and 1 for locations where there would be mines), and the program should return a matrix indicating, for each position, the number of mines in neighboring houses.
+91. Write a recursive function to calculate the factorial of a number.
+92. Implement a recursive function to calculate the Fibonacci sequence up to a given number.
+93. Create a recursive function to check if a number is prime.
+94. Develop a recursive function to calculate the sum of the digits of an integer.
+95. Write a recursive function to calculate the power of an
+integer raised to an exponent.

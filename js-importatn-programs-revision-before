@@ -1,0 +1,50 @@
+function retry(fn,entries=3,delay=1000){
+    return new Promise((res,rej)=>{
+        function attempt(n){
+            fn().then(res).catch((err)=>{
+                if(n===0) rej(err);
+                else {
+                    console.log("Retrying...");
+                    setTimeout(()=>attempt(n-1),delay)
+                }
+            })
+        }
+        attempt(entries)
+    })
+}
+let count =0 ;
+retry (()=>{
+    return new Promise((res,rej)=>{
+        count++;
+        count<3?rej("fail"):res("pass");
+    })
+},3).then(console.log)
+//----------------------------------------------------------------------
+function cancellable(ms){
+    let timer;
+    let cancel;
+    let promise = new Promise((res,rej)=>{
+        timer = setTimeout(()=>res("done"),ms);
+        cancel=()=>{
+            clearTimeout(timer);
+            rej("cancelled");
+        }
+    })
+    return {promise,cancel};
+}
+
+const {promise,cancel} = cancellable(300);
+promise.then(console.log).catch(console.error);
+setTimeout(cancel,1000)
+//-----------------------------------------------------------------------
+Function.prototype.debounce = function(delay=3000){
+    let timer;
+    return (...args)=>{
+     clearTimeout(timer);
+     timer=setTimeout(()=>this(...args),delay)   
+    }
+}
+
+const sayHi = (name)=> console.log("Hi",name);
+const debouncedHi =sayHi.debounce(1000);
+debouncedHi("ram ram g");

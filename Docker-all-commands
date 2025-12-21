@@ -74,7 +74,8 @@ change working dir
 -check docker is running
 	- docker ps
 
-
+- docker stop container
+	-docker 
 
 --------------------------------------AWS LOcalstack----------------------------------------------
 aws configure
@@ -98,8 +99,69 @@ aws --endpoint-url=http://localhost:4566 s3 mb s3://my-test-bucket
 - check s3 bucket
 aws --endpoint-url=http://localhost:4566 s3 ls
 
+- deploy build in s3 bucket
+aws --endpoint-url=http://localhost:4566 s3 sync out s3://my-local-bucket (s3://my-local-bucket-> it is bucket name)
+
+-delete build in s3 bucket
+aws --endpoint-url=http://localhost:4566 \
+  s3 sync out/ s3://next-local-bucket --delete
 
 
+- IAM user create localstack
+aws --endpoint-url=http://localhost:4566 iam create-user --user-name jay-ganesh
+
+
+//-----------------Networking services -------
+DNS
+Ingress
+Nginx
+reverse proxy
+SSL
+IPV4/IPV6
+security groups
+VPC
+
+categories of Aws Services:
+
+compute:
+EC2
+Elastic Beanstalk
+Lambda
+Elastic container service
+Elastic container registry
+Elastic kuberbates service
+Batch
+EC2 Auto scaling
+EC2 Image builder
+EC2 System Manager
+EC2 Instance Connect
+
+storage:
+
+S3
+Elastic Block store
+Elastic File system
+Glacier
+
+Database:
+RDS
+DynamoDB
+Redshift
+Elasticache
+
+Migration:
+Snowball
+snowmobile
+database migration service
+Application Discovery service
+
+IAm -> Identity and access Management (IAM)
+
+
+S3
+1. Storage limits
+2. public urls
+3. programatical access
 
 
 
