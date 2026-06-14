@@ -164,4 +164,57 @@ S3
 3. programatical access
 
 
+//--------------------------------------------------nginx---
+
+//https://www.youtube.com/watch?v=NTOcdjMs8E4&t=332s
+
+//--------------------------------------------------
+installing nginx
+sudo apt install nginx
+
+aws nginx
+yum install nginx
+
+giving permission nginx
+sudo apt install nginx -y
+
+start nginx service
+sudo systemctl start nginx
+sudo systemctl stop nginx
+
+systemctl start/stop/reload nginx
+
+enable http service in firewalld
+sudo firewall-cmd --permanent --add-service =http
+
+access default website from browser
+nginx config
+/etc/nginx/nginx.conf
+default webpage
+/usr/share/nginx/html
+
+
+certificate 
+for windows
+choco install certbot -y
+for linux 
+aws per bhi yahi chalegi
+sudo apt install certbot python3-certbot-nginx -y
+
+to generate certificates
+sudo certbot certonly --standalone -d yourdomain.com
+
+certificate ssl_certificate/etc/letsencrypt/live/yourdomain.com/fullchain.pem
+certificate_key  
+ssl_key/etc/letsencrypt/live/yourdomain.com/privkey.pem;
+
+ssl_protocols TLSv1.2 TLSv1.3
+
+
+
+
+
+
+
+
 
